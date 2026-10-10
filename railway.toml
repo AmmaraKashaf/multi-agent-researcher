@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+# The app's health route lives under /api (see backend/main.py).
+healthcheckPath = "/api/health"
