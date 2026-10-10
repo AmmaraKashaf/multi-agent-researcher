@@ -1,0 +1,11 @@
+groq
+langgraph
+ddgs
+fastapi
+uvicorn[standard]
+python-dotenv
+sse-starlette
+pydantic
+httpx
+beautifulsoup4
+requests
